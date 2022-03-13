@@ -1,0 +1,29 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dispaly_bar{
+  margin-top: 40px;
+  display: flex;
+}
+img{
+  border-radius: 0.5rem;
+  margin: 5px;
+}
+.AuhorName{
+  opacity: 0;
+}
+.container:hover > .AuhorName{
+  opacity: 1;
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+}
+input{
+  padding: 2rem;
+}
+.alert{
+  text-align: center;
+  
+}
